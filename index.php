@@ -20,7 +20,7 @@ if(isset($_POST['name']))
  $desc=mysqli_real_escape_string($con, $_POST['desc']);
 
 
- $sql="INSERT INTO moolya_trip.trip (name, age, gender, email, phone, other, dt) VALUES ('$name', '$age', '$gender', '$email', '$phone','$desc', current_timestamp());";
+ $sql="INSERT INTO u02Z5d2Bvu.trip (name, age, gender, email, phone, other, dt) VALUES ('$name', '$age', '$gender', '$email', '$phone','$desc', current_timestamp());";
  if($con->query($sql) == true){
  	$insert = true;
  }
