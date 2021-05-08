@@ -2,9 +2,9 @@
 $insert=false;
 if(isset($_POST['name']))
 {
- $server="localhost";
- $username="root";
- $password="rajat123";
+ $server="remotemysql.com";
+ $username="u02Z5d2Bvu";
+ $password="jPBHyoiqdP";
 
  $con=mysqli_connect($server,$username,$password);
 
