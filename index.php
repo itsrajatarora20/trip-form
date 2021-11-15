@@ -100,7 +100,7 @@ if(isset($_POST['name']))
 	    }
 	    #fm div{
 			margin: 5px 2px;
-	    	padding: 17px;	
+		    padding: 17px;	}
 	</style>
 </head>
 <body>
